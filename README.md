@@ -7,6 +7,10 @@ The interface of the GUI was made possible with “TKinter” which is a built-i
 
 GitHub - https://github.com/TomSchimansky/CustomTkinter
 
+Official website: https://customtkinter.tomschimansky.com
+
+A big thanks to TomSchimansky for the creation of this UI-library.
+
 Some of the functions implemented are the possibility of loading the public key and the private key only once as long as the window is kept opened or changed by the user. This allows multiples file and messages to be encrypted and/or decrypted easily without loading key all the time. For these 2 keys is possible to see also the content after it is loaded.  
 The python code allows the user to have 2 options one to type or paste the message straight inside the text box and the other to select a file to then encrypt and/or decrypt the message. There are 2 buttons for each option the “encrypt/decrypt” are for the file and the “encrypt/decrypt file” is for the files.  
 2 more buttons are for the text of file to be signed and/or verified texts or files.  
@@ -63,6 +67,9 @@ Now we can begin our encryption. We will create a TXT file and write a text of o
 
 Now we click on the “Encrypt File” button and select the file we want to encrypt. Once we click the encrypt button, we have to select a TXT file were to write the content. Figure 8
 
+> [!NOTE] 
+> You can select the save file if you wish to overwrite the file itself with the encrypted one.
+
 ![8 Click encrypt file](https://github.com/DoronzoNicholas/RSA-Encryption-Description/assets/123806307/fa81eb86-9610-48fc-92a6-724f9b57174a)
 
 (Figure 8 – Save the encrypted text into a File)
@@ -87,6 +94,7 @@ We will be prompt to select the encrypted file. The decrypted file will be saved
 
 (Figure 11 – Showing the content of the encrypted and decrypted file)
 
+# Signature & Verification
 
 In order to sign a file, we will click on the sign button, and we will be prompt to select a file to sign. Figure 12
 
@@ -135,6 +143,9 @@ By changing the content of the file by a single minor modification we can see we
 (Figure 18 – File has not been verified)
 
 In the instances we want to just copy and paste a text for the encryption of the description we can use the same concept . Once we load our public and private key, we can write our text on the textbox and then click on the “Encrypt Text” button. This will encrypt the text content inside the textbox and show us straight away the encrypted text. Figure 19&20
+
+> [!NOTE] 
+> The code is set that if a caracther is identified inside the bock there will be a different turn in what's next as the operation differ slitgly from the encryption of the file seen earlier. 
 
 
 ![19 text encryption](https://github.com/DoronzoNicholas/RSA-Encryption-Description/assets/123806307/7ec9ffef-240d-47f7-a8cd-b0b22eec573c)
