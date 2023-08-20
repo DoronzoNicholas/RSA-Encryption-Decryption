@@ -1,8 +1,8 @@
 # RSA-Encryption-Decryption
-For RSA project I created a python code which implements the RSA encryption and decryption with the additional possibility to sign and verify the message. This implementation was developed around a GUI interface so that it can be used also without a clear knowledge of coding.
+For this project I created a python code which implements the RSA encryption and decryption with the additional possibility to sign and verify a message. This implementation was developed around a GUI interface so that it can be used also without a clear knowledge of coding.
 
 
-# Application Overview
+# Interface Overview
 The interface of the GUI was made possible with “TKinter” which is a built-in option in python for the creation of GUI. Furthermore, for the esthetic of the GUI different library was used. For this GUI I have used “CustomTkinter” library which was available via GitHub. 
 
 GitHub - https://github.com/TomSchimansky/CustomTkinter
