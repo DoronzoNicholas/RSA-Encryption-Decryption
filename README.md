@@ -20,7 +20,8 @@ Additional appearance available is to change them of the whole interface from da
 # Interface and functionality
 In this following section we will have shown in pictures how the application looks once it is run along with all the functionality available. Figure 1 shows the GUI interface of the application once opened. 
 
- ![image](https://github.com/DoronzoNicholas/RSA-Encryption-Description/assets/123806307/0e7a79ce-98a8-4690-a214-4f6e6dfa71f9)
+![1](https://github.com/DoronzoNicholas/RSA-Encryption-Decryption/assets/123806307/c19c4e3f-6544-4dc9-8279-8463bab01f12)
+
 
 (Figure 1 – GUI interface)
 
